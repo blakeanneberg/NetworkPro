@@ -32,19 +32,43 @@
             }
           },
           {
-            "id": "abb27f6572dbd7d4",
+            "id": "9381a5b4dfb7053e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.3.4 Packets and Frames.md",
+                "file": "2.3.7 Three Way Handshake and TCP Flags.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bee5d990c038f00d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.4 Network Protocols.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae8cfe02c346fcce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.4.2 Common Network Services.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.3.4 Packets and Frames.md",
+                "file": "2.4.2 Common Network Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.3.4 Packets and Frames.md",
+                "file": "2.4.2 Common Network Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.3.4 Packets and Frames.md"
+                "file": "2.4.2 Common Network Services.md"
               }
             }
           }
@@ -171,11 +195,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "abb27f6572dbd7d4",
+  "active": "ae8cfe02c346fcce",
   "lastOpenFiles": [
+    "2.4 Network Protocols.md",
+    "2.4.2 Common Network Services.md",
+    "2.3.7 Three Way Handshake and TCP Flags.md",
     "2.3.3 Address Resolution Protocol ARP.md",
-    "2.3.4 Packets and Frames.md",
+    "Untitled",
     "Untitled.canvas",
+    "2.3.4 Packets and Frames.md",
     "2.3.2 Data Encapsulation.md",
     "2.2 OSI Model and Data Encapsulation.md"
   ]
