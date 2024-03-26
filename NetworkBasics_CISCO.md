@@ -1,3 +1,7 @@
+			+-----------------------+
+			| Skills for Networking |
+			+-----------------------+
+
 # Bandwith
 - DEF: measures amount of data tha can flow from one place to another in a given amount of time
 - bit DEF: abbreviation of "binary digit" and represents the smallest piece of ddate, each bit can only have one or two possible values, 0 or 1. 
@@ -18,7 +22,13 @@
 # Network
 - Peer to Peer
 	1. Two directly connected computers where both computers are able to exchange data and services with each other. Acting as either client or a server as necessary
-- Components and Intermediate devices
+- End Devices
+	1. Laptop
+	2. Printer
+	3. IP Phone
+	4. Desktop Computer
+	5. Tablet
+- Intermediate devices
 	1. Router
 	2. Wireless Router
 	3. Switch
@@ -26,3 +36,11 @@
 	5. Call Manager
 	6. FireWall
 	7. Service provider switch
+- Network Media
+	1. Wireless Media
+	2. LAN Media
+	3. WAN Media
+
+
+
+
