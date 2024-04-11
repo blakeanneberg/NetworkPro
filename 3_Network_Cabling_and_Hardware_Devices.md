@@ -69,6 +69,7 @@
 - simpler connections
 - 100 mbps up to 2 km and 1000 mbps up to 1000 meters. 10 Gbps up to 500 meters 
 - lower cost electronics
+- 850 nm and 1300 nm wavelengths
 
 ### Wavelength Division Multiplexing WDM
 - different color of light entering the fiber 
@@ -76,10 +77,10 @@
 - Long haul and high speed, 16 tbps, uses single mode fiber 
 
 ### Connectors
-- ST connector: single mode and multi mode, keyed bayonet connector, set and twist
-- SC Connector: single mode and multi mode, push on and clip, set and click 
-- lC connector: single mode and multi, lift and click 
-- MTRJ connector: single mode and multi, send and receve in one fiber.  
+- ST connector: single mode and multi mode, keyed bayonet connector, set and twist, needs polishing as part of assembly process
+- SC Connector: single mode and multi mode, push on and clip, set and click, needs polishing as part of assembly process
+- LC connector: single mode and multi, lift and click, they use a housing and latch system similar to RJ45 UTP connector, half the size of standard connectors. Use one piece bayonet connecting system, can be used with either fiber optic or copper cabling 
+- MTRJ connector: single mode and multi, send and receve in one fiber., use metal guide pins to ensure accurate alignment 
 - FC connector: only single mode
 
 ### Polish rating 
