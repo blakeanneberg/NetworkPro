@@ -1,8 +1,8 @@
 # Copper Cables and Connectors
 
-1. Shielded twisted pair cabeling protects it from EMI 
+1. Shielded twisted pair cabling protects it from EMI 
 2. Drain Wire  
-3. Solid: conducts siganls better, prone to break 
+3. Solid: conducts signals better, prone to break 
 4. Stranded: more flexiable, use for patch cables 
 5. Cable categories
 	- tighter twists and added shielding contribute to higher supported bandwidths 
@@ -45,3 +45,54 @@
 
 - Wavelength division multiplexing WDM: DEF joins several light wavelengths (colors) into a single strand of fiber by using different wavelengths of laser light
 
+## Fiber Optic
+- Cladding reflect the light to not leave the glass or plastic core
+- Fiber is expensive
+- Difficult to work with 
+### Single Mode
+- Yellow
+- Small diameter 8-10.5 micros
+- light enters single path
+- Less affected by modal dispersion, longer
+- 10Gbps over 80 km
+- higher speed
+- precise connections
+- higher cost electronics 
+
+### Multi Mode
+- orange or aqua
+- Aqua preforms better at higher speeds and longer distances. 
+- larger diameter 50-100 microns in diameter 
+- light might bounce in the side, modal dispersion, and longer the cable length the greater the distortion. 
+- shorter distances 
+- slower speeds
+- simpler connections
+- 100 mbps up to 2 km and 1000 mbps up to 1000 meters. 10 Gbps up to 500 meters 
+- lower cost electronics
+
+### Wavelength Division Multiplexing WDM
+- different color of light entering the fiber 
+- allows for different directions of light for data, can multiplex 160 signals
+- Long haul and high speed, 16 tbps, uses single mode fiber 
+
+### Connectors
+- ST connector: single mode and multi mode, keyed bayonet connector, set and twist
+- SC Connector: single mode and multi mode, push on and clip, set and click 
+- lC connector: single mode and multi, lift and click 
+- MTRJ connector: single mode and multi, send and receve in one fiber.  
+- FC connector: only single mode
+
+### Polish rating 
+- Physical contact or PC polishing, with slight curvature when the cable end is mated to the connector. 
+- SPC Super physical contact and ultra physical contact Upc uses higher grades of polish 
+- Angled physical contact APC has 8 degree cut, only use angle polished connectors which are always green
+
+### Simplex Duplex Patch
+- Simplex: only need one fiber cable to communicate, can transmit and receive over a single fiber. 
+- Duplex = two strands with two connectors at each end
+- ST to LC and ST to SC and SC to LC are common conversions
+
+### Media converters 
+- Single or multi mode fiber to copper ethernet 
+- single or multi mode to coax 
+- single mode fiber to multi mode fiber
