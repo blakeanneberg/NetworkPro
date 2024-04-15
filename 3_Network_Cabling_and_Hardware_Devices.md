@@ -109,8 +109,12 @@
 - power can also be supplied using one of the data wires
 
 # Wiring Distribution
-- Demarc: where ISP wire enters the building
-- MDF: Main distribution frame
-- IDF: Intermediate distribution frames
-- VCC: Virtal Cross Connects VCCs are networking cables that connect IDFs together vertically 
-- HCC: Horizontal Cross Connects VCCs are networking cables that connect IDFs together horizontally  
+## Demarc: where ISP wire enters the building
+- Demarc Extension, extends the demarc
+
+## MDF: Main distribution frame
+## IDF: Intermediate distribution frames
+- Can be connected via UTP cable (100 or 50 twisted pair sets)
+- Punch Down Block allows to have multiple UTP cables on one side and individual workstation patch pannels on the other. Key stone jacks in patch pannels, collor coded T568B 
+## VCC: Virtal Cross Connects VCCs are networking cables that connect IDFs together vertically 
+## HCC: Horizontal Cross Connects VCCs are networking cables that connect IDFs together horizontally  
