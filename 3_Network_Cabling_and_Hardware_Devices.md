@@ -79,7 +79,7 @@
 ### Connectors
 - ST connector: single mode and multi mode, keyed bayonet connector, set and twist, needs polishing as part of assembly process
 - SC Connector: single mode and multi mode, push on and clip, set and click, needs polishing as part of assembly process
-- LC connector: single mode and multi, lift and click, they use a housing and latch system similar to RJ45 UTP connector, half the size of standard connectors. Use one piece bayonet connecting system, can be used with either fiber optic or copper cabling 
+- LC connector: single mode and multi, lift and click, they use a housing and latch system similar to RJ45 UTP connector, half the size of standard connectors.  
 - MTRJ connector: single mode and multi, send and receve in one fiber., use metal guide pins to ensure accurate alignment 
 - FC connector: only single mode
 
@@ -97,3 +97,20 @@
 - Single or multi mode fiber to copper ethernet 
 - single or multi mode to coax 
 - single mode fiber to multi mode fiber
+
+## Twisted Pair Cable Construction
+- Strait Though Cable: wire connected from data on its trasmit pins to data on the other transmit pins. Use same wireing convention on both ends.
+- Crossover cables: Take transmit pins on one side and connect them to receive pins on the other. Can link switheces together that dont have a uplink port. Example TIA568A and TIA568B. 
+- TIA568A: Green/white, green, orange/white, blue, blue/white, orange, brown/white, brown.
+- TIA568B: Orange/White, Orange, Green/White, Blue, Blue/white, Green, Brown White, Brown
+
+## POE Power over ethernet cabeling
+- Power can be supplied though one of the unused pairs of wires in 10- and 10 
+- power can also be supplied using one of the data wires
+
+# Wiring Distribution
+- Demarc: where ISP wire enters the building
+- MDF: Main distribution frame
+- IDF: Intermediate distribution frames
+- VCC: Virtal Cross Connects VCCs are networking cables that connect IDFs together vertically 
+- HCC: Horizontal Cross Connects VCCs are networking cables that connect IDFs together horizontally  
