@@ -3,7 +3,7 @@
 1. Shielded twisted pair cabling protects it from EMI 
 2. Drain Wire  
 3. Solid: conducts signals better, prone to break 
-4. Stranded: more flexiable, use for patch cables 
+4. Stranded: more flexible, use for patch cables 
 5. Cable categories
 	- tighter twists and added shielding contribute to higher supported bandwidths 
 	- Cat 5: supports 100 MB
@@ -80,7 +80,7 @@
 - ST connector: single mode and multi mode, keyed bayonet connector, set and twist, needs polishing as part of assembly process
 - SC Connector: single mode and multi mode, push on and clip, set and click, needs polishing as part of assembly process
 - LC connector: single mode and multi, lift and click, they use a housing and latch system similar to RJ45 UTP connector, half the size of standard connectors.  
-- MTRJ connector: single mode and multi, send and receve in one fiber., use metal guide pins to ensure accurate alignment 
+- MTRJ connector: single mode and multi, send and receive in one fiber., use metal guide pins to ensure accurate alignment 
 - FC connector: only single mode
 
 ### Polish rating 
@@ -94,27 +94,43 @@
 - ST to LC and ST to SC and SC to LC are common conversions
 
 ### Media converters 
-- Single or multi mode fiber to copper ethernet 
+- Single or multi mode fiber to copper Ethernet 
 - single or multi mode to coax 
 - single mode fiber to multi mode fiber
 
 ## Twisted Pair Cable Construction
-- Strait Though Cable: wire connected from data on its trasmit pins to data on the other transmit pins. Use same wireing convention on both ends.
-- Crossover cables: Take transmit pins on one side and connect them to receive pins on the other. Can link switheces together that dont have a uplink port. Example TIA568A and TIA568B. 
+- Strait Though Cable: wire connected from data on its transmit pins to data on the other transmit pins. Use same wiring convention on both ends.
+- Crossover cables: Take transmit pins on one side and connect them to receive pins on the other. Can link switches together that dont have a uplink port. Example TIA568A and TIA568B. 
 - TIA568A: Green/white, green, orange/white, blue, blue/white, orange, brown/white, brown.
 - TIA568B: Orange/White, Orange, Green/White, Blue, Blue/white, Green, Brown White, Brown
 
-## POE Power over ethernet cabeling
+## POE Power over Ethernet cabling
 - Power can be supplied though one of the unused pairs of wires in 10- and 10 
 - power can also be supplied using one of the data wires
 
-# Wiring Distribution
-## Demarc: where ISP wire enters the building
+## Wiring Distribution
+### Demarc: where ISP wire enters the building
 - Demarc Extension, extends the demarc
 
-## MDF: Main distribution frame
-## IDF: Intermediate distribution frames
+### MDF: Main distribution frame
+### IDF: Intermediate distribution frames
 - Can be connected via UTP cable (100 or 50 twisted pair sets)
-- Punch Down Block allows to have multiple UTP cables on one side and individual workstation patch pannels on the other. Key stone jacks in patch pannels, collor coded T568B 
-## VCC: Virtal Cross Connects VCCs are networking cables that connect IDFs together vertically 
-## HCC: Horizontal Cross Connects VCCs are networking cables that connect IDFs together horizontally  
+- Punch Down Block allows to have multiple UTP cables on one side and individual workstation patch panels on the other. Key stone jacks in patch panels, color coded T568B 
+### VCC: Vital Cross Connects 
+- VCCs are networking cables that connect IDFs together vertically 
+### HCC: Horizontal Cross Connects
+- HCCs are networking cables that connect IDFs together horizontally  
+
+## Troubleshooting Copper wiring issues
+- use extra shielding on wires to prevent EMI electric magnetic interference 
+- put a drain wire that soaks up EMI
+- Measuring Cross Talk via NEXT Near End Cross Talk, measures same end wires crosstalk. FEXT far end crosstalk measure cross talk at far end of where transmission occurs. Often wires are bent or wires are in close proximity.
+- Alien cross talk: where two wires run parallel and signal crosses between them.
+- Fix: Maintain twits right till the connector. Tighter pairs are twisted the greater resistance to cross talk. EX CAT6 UTP much more tightly than CAT3. 
+- Signals strewth attenuated. Copper is 100 meters or less. Heat also limits distance. Use a repeater to spread the signal better.
+- Impedance mismatch for coax cabling, measured in Ohms, is resistance inside the wire for electrical flow. Is when you have different ratings of cables installed. Cable TV uses coax rated for 75 ohms.  
+- Shorts: when electrical follows path of least resistance and changes path. Or if a nail pareses the wire and it grounds out.
+- Open: when a wire has a cut in 
+- Reversal: when using strait though vs crossover cable
+- Wiremapping: when incorrect pins happen.
+- Split pair: pins between two pairs are crossed on both ends and could result in cross talk. 
