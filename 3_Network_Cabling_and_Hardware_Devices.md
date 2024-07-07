@@ -134,3 +134,4 @@
 - Reversal: when using strait though vs crossover cable
 - Wiremapping: when incorrect pins happen.
 - Split pair: pins between two pairs are crossed on both ends and could result in cross talk. 
+
